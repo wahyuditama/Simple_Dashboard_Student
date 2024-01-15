@@ -1,0 +1,10 @@
+*** The following is a simple dashboard made from HTML ***
+
+--- This is a simple admin dashboard website create by HTML and Boostrap 5 ---
+
+--- Similarities in places and names are just fabrications ---
+
+
+
+<< wahyu_ramdany >>
+     Thanks You

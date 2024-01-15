@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <style>
+
+      .nav-link:hover {
+        background-color: skyblue;
+      }
+
+      .card-icon {
+        position: absolute;
+        z-index: 0;
+        bottom: 25px;
+        right: 4px;
+        opacity: 0.4;
+        font-size: 100px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-danger fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"><strong>WELCOME TO | <I>UNIVERSITY OF LOREM</I></strong></a>
+        
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row no-gutters mt-5" style="max-width: 100%;">
+      <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+        <ul class="nav flex-column ml-3 mb-5">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="Home.html"><i class='bx bx-color m-2'></i>Home</a><hr>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Students.html"><i class='bx bxs-user-rectangle m-2' ></i>List of Students
+            </a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Lecturers.html"><i class='bx bxs-user-detail m-2' ></i>List of Lecturers</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="Employees.html"><i class='bx bxs-user-circle m-2' ></i>List of Employees</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="Schedule.html">
+              <i class='bx bx-calendar m-2'></i>Course Schedule</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="Scores.html"><i class='bx bx-paper-plane m-2' ></i>Scores of Students </a><hr class="bg-secondary">
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10 p-5 pt-2">
+        <h3><i class='bx bxs-user-rectangle m-2'> STUDENTS</i></h3><HR></HR>
+     
+        
+        <a href="" class="btn btn-primary mb-4"><i class='bx bx-plus-medical m-1' ></i> Add Students</a>
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Name of Colleger</th>
+                <th scope="col">NIM</th>
+                <th scope="col">Birthplace</th>
+                <th scope="col">Address</th>
+                <th colspan="3" scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark S.A</td>
+                <td>141628</td>
+                <td>North Carolina, 14 march 1990 </td>
+                <td>North Carolina - USA</td>
+                <td><a href="#" class="btn btn-primary">Detail</a></td>
+                <td><i class='bx bxs-edit bg-primary p-2 text-white rounded' data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class='bx bxs-trash bg-danger p-2 text-white rounded' data-toggle="tooltip" title="Delete" ></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>Jason Andrew N</td>
+                <td>182735</td>
+                <td>St. louis, 18 Agust 1999 </td>
+                <td>missouri - USA</td>
+                <td><a href="#" class="btn btn-primary">Detail</a></td>
+                <td><i class='bx bxs-edit bg-primary p-2 text-white rounded' data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class='bx bxs-trash bg-danger p-2 text-white rounded' data-toggle="tooltip" title="Delete" ></i></td>
+              </tr>
+               
+              <tr>
+                <th scope="row">3</th>
+                <td>Jacob marques</td>
+                <td>205627</td>
+                <td>Orlando, 20 July 1997 </td>
+                <td> Florida - USA</td>
+                <td><a href="#" class="btn btn-primary">Detail</a></td>
+                <td><i class='bx bxs-edit bg-primary p-2 text-white rounded' data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class='bx bxs-trash bg-danger p-2 text-white rounded' data-toggle="tooltip" title="Delete" ></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>Marry Harleyava Princy</td>
+                <td>051673</td>
+                <td>Silicon Velley, 05 January 1995 </td>
+                <td>California - USA</td>
+                <td><a href="#" class="btn btn-primary">Detail</a></td>
+                <td><i class='bx bxs-edit bg-primary p-2 text-white rounded' data-toggle="tooltip" title="Edit"></i></td>
+                <td><i class='bx bxs-trash bg-danger p-2 text-white rounded' data-toggle="tooltip" title="Delete" ></i></td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
